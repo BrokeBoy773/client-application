@@ -1,0 +1,1 @@
+export { BrandDeleteModal } from './BrandDeleteModal';

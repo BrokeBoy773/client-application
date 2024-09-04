@@ -1,0 +1,10 @@
+.middleBar {
+    width: 32%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #D1D1D1;
+}

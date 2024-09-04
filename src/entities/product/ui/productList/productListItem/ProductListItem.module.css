@@ -1,0 +1,59 @@
+.listItem {
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 15px 20px;
+
+    border-radius: 10px;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #D1D1D1;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E1E1E;
+
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 50px;
+
+    font-size: 12px;
+    font-weight: 400;
+    color: #535353;
+
+    margin-bottom: 10px;
+}
+
+.dateTime {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 10px;
+
+    font-size: 10px;
+    font-weight: 400;
+    color: #535353;
+}
+
+.buttonPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}

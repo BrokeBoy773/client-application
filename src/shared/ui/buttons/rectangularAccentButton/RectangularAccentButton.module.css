@@ -1,0 +1,18 @@
+.rectangularAccentButton {
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 10px 20px;
+    
+    color: #EBEBEB;
+
+    background-color: #673AB7;
+
+    border-radius: 5px;
+}
+
+.rectangularAccentButton:hover {
+    transition: .2s;
+
+    background-color: #1E1E1E;
+}

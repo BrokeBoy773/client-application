@@ -1,0 +1,1 @@
+export { StatusDeleteModal } from './StatusDeleteModal';

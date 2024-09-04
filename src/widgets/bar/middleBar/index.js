@@ -1,0 +1,1 @@
+export { MiddleBar } from './MiddleBar';

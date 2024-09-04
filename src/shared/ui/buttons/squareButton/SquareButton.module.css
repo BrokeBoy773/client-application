@@ -1,0 +1,22 @@
+.squareAccentButton {
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    fill: #1E1E1E;
+
+    background-color: #EBEBEB;
+
+    border-radius: 5px;
+}
+
+.squareAccentButton:hover {
+    transition: .2s;
+
+    fill: #EBEBEB;
+
+    background-color: #1E1E1E;
+}

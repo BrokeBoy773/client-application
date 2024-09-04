@@ -1,0 +1,69 @@
+.container {
+    padding: 15px 20px;
+
+    border-radius: 10px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #D1D1D1;
+}
+
+.buttonPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.modalContainer {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modalMain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.modalMainItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: end;
+
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}

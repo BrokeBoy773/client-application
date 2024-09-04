@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.main {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.headerText {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mainText {
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: 700;
+}

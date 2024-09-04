@@ -1,0 +1,19 @@
+.rightBar {
+    width: 32%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+}

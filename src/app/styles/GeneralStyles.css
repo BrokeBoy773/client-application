@@ -1,0 +1,29 @@
+@import url('../../shared/fonts/roboto/Roboto.css');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: Roboto;
+    color: #1E1E1E;
+
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    background-color: #EBEBEB;
+}

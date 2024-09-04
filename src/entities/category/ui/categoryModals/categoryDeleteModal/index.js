@@ -1,0 +1,1 @@
+export { CategoryDeleteModal } from './CategoryDeleteModal';

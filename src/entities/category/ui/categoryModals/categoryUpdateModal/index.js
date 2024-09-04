@@ -1,0 +1,1 @@
+export { CategoryUpdateModal } from './CategoryUpdateModal';

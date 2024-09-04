@@ -1,0 +1,20 @@
+.rectangularButton {
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 10px 20px;
+    
+    color: #1E1E1E;
+
+    background-color: #EBEBEB;
+
+    border-radius: 5px;
+}
+
+.rectangularButton:hover {
+    transition: .2s;
+
+    color: #EBEBEB;
+
+    background-color: #1E1E1E;
+}

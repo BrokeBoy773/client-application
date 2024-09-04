@@ -1,0 +1,1 @@
+export { SizeDeleteModal } from './SizeDeleteModal';

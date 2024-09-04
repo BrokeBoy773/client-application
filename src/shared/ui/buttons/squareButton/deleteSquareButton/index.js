@@ -1,0 +1,1 @@
+export { DeleteSquareButton } from './DeleteSquareButton';

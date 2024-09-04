@@ -1,0 +1,1 @@
+export { ProductBoxTitle } from './ProductBoxTitle';
